@@ -1,14 +1,14 @@
-*** Settings ***
+#*** Settings ***
 Documentation            Reusable keywords and variables for CRT training
 Library                  QWeb
 Library                  String    
 
 *** Variables ***
-${Browser}               chrome
+${Browser}               firefox
 ${URL}                   http://automationpractice.com/
 ${Email}                 maxdkohler@gmail.com
 
-*** Keywords ***
+#*** Keywords ***
 AppState
     [Documentation]
     [Arguments]
