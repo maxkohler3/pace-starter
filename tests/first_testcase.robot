@@ -7,6 +7,6 @@
 Test the home page
     [Documentation]     First Exercise
     [Tags]              Training
-    OpenBrowser         ${BROWSER}               
+    OpenBrowser         about:blank    aaa${BROWSER}               
     GoTo                ${URL}
     VerifyText          YourLogo
