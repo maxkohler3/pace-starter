@@ -8,12 +8,6 @@ ${BROWSER}               chrome
 ${URL}                   http://automationpractice.com/
 
 *** Keywords ***
-Start Suite             
-    OpenBrowser          about:blank    ${BROWSER}
-    SetConfig            SearchMode     draw
-
-End suite
-    CloseAllBrowsers
 
 Appstate
        [Documentation]         Checks which actions should be taken prior to testing and does them
@@ -38,4 +32,10 @@ Sign in
       TypeSecret             Password                ${PASSWORD}
       ClickText              Sign in                 Forgot your password?
       VerifyText             Welcome to your account.
+      
+Start Suite             
+    OpenBrowser          about:blank    ${BROWSER}
+    SetConfig            SearchMode     draw
 
+End suite
+    CloseAllBrowsers
