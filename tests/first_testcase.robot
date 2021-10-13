@@ -11,7 +11,7 @@ Sign In
     OpenBrowser         about:blank    ${Browser}
     GoTo                ${URL}
     ClickText           Sign in
-    TypeText            Email address    2    training.qentinel@gmail.com
+    TypeText            Email address    training.qentinel@gmail.com    Password
     TypeText            Password         ${PASSWORD}
     ClickText           Sign in          Forgot your password?
     
