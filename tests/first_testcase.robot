@@ -10,5 +10,6 @@ Suite Teardown          Close All Browsers
 Test the home page
     [Documentation]     Go to the web shop, and verify that the slogan text appears on the page.
     [Tags]              Home page
+    OpenBrowser         ${Browser}      ${URL}         
     GoTo                http://automationpractice.com
     VerifyText          YourLogo
