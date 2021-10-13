@@ -5,7 +5,7 @@ Library                  String
 
 *** Variables ***
 ${Browser}               chrome
-${Home}                  about.blank
+${URL}                   http://automationpractice.com/
 ${Email}                 maxdkohler@gmail.com
 
 *** Keywords ***
