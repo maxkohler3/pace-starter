@@ -2,14 +2,16 @@
 
 Documentation           Foundation Cert Practice TC
 Library                 QWeb
-Suite Setup             Open Browser    about:blank    firefox
-Suite Teardown          Close All Browsers
+Resource                ../resources/keywords.robot
+Resource                ../resources/locators.robot
+Suite Setup             Start Suite
+Suite Teardown          End Suite
 
 *** Test Cases ***
 
 Test the home page
     [Documentation]     Go to the web shop, and verify that the slogan text appears on the page.
     [Tags]              Home page
-    OpenBrowser         ${Browser}      ${URL}         
-    GoTo                http://automationpractice.com
+    OpenBrowser         ${Browser}               
+    GoTo                ${URL}
     VerifyText          YourLogo
