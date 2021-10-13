@@ -1,5 +1,6 @@
 *** Settings ***
     Documentation           Foundation Cert Practice TC
+    Library                 QWeb
     Resource                ../resources/keywords.robot
     Resource                ../resources/locators.robot         
 
