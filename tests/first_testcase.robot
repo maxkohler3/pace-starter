@@ -8,7 +8,7 @@ Resource                ../resources/locators.robot
 Sign In
     [Documentation]     Second Exercise
     [Tags]              Training
-    OpenBrowser         ${Browser}
+    OpenBrowser         about:blank    ${Browser}
     GoTo                ${URL}
     ClickText           Sign in
     TypeText            Email address    2    training.qentinel@gmail.com
@@ -20,4 +20,4 @@ Test the home page
     [Tags]              Training
     OpenBrowser         about:blank    ${BROWSER}               
     GoTo                ${URL}
-    VerifyText        Specials
+    VerifyText          Specials
