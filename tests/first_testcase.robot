@@ -2,7 +2,9 @@
 Documentation           Foundation Cert Practice TC
 Library                 QWeb
 Resource                ../resources/keywords.robot
-Resource                ../resources/locators.robot         
+Resource                ../resources/locators.robot
+Suite Setup             Start Suite
+Suite Teardown          End Suite             
 
 *** Test Cases ***
 Sign In
@@ -12,7 +14,7 @@ Sign In
     GoTo                ${URL}
     ClickText           Sign in
     TypeText            Email address    training.qentinel@gmail.com    Password
-    TypeText            Password         ${PASSWORD}
+    TypeSecretaaa            Password         ${PASSWORD}
     ClickText           Sign in          Forgot your password?
     
 Test the home page
