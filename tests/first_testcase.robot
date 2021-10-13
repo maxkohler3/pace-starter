@@ -4,8 +4,8 @@ Documentation           Foundation Cert Practice TC
 Library                 QWeb
 Resource                ../resources/keywords.robot
 Resource                ../resources/locators.robot
-Suite Setup             Start Suite
-Suite Teardown          End Suite
+Suite Setup             
+Suite Teardown              
 
 *** Test Cases ***
 
