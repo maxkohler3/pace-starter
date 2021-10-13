@@ -4,7 +4,7 @@ Library                  QWeb
 Library                  String    
 
 *** Variables ***
-${Browser}               firefox
+${BROWSER}               firefox
 ${URL}                   http://automationpractice.com/
 ${Email}                 maxdkohler@gmail.com
 
