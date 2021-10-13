@@ -14,7 +14,7 @@ Sign In
     GoTo                ${URL}
     ClickText           Sign in
     TypeText            Email address    training.qentinel@gmail.com    Password
-    TypeSecretaaa            Password         ${PASSWORD}
+    TypeSecret           Password         ${PASSWORD}
     ClickText           Sign in          Forgot your password?
     
 Test the home page
