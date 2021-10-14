@@ -28,4 +28,18 @@ Test the home page
 Add product to shopping cart and cancel
     [Documentation]    User is able to add product to shopping cart and cancel         
     [Tags]             Shopping cart
-         
+    Appstate           Sign in
+    ClickText          Dresses
+    ClickText          Printed Dresses
+    ClickElement       //*[@class\="icon-plus"]
+    DropDown           Size            M
+    ClickText          Add to cart
+    VerifyText         Product Successfully added to your shopping cart     
+    VerifyText         There are 2 items in your shopping cart.
+    ClickText          Proceed to checkout
+    VerifyText         Size : M
+    ClickItem          Delete
+    VerifyText         Your shopping cart is empty.
+    ClickItem          Return to Home
+    VerifyNoItem       Return to Home
+    ClickText          Sign out
