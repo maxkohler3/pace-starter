@@ -23,3 +23,9 @@ Test the home page
     OpenBrowser         about:blank    ${BROWSER}               
     GoTo                ${URL}
     VerifyText          Specials
+        
+
+Add product to shopping cart and cancel
+    [Documentation]    User is able to add product to shopping cart and cancel         
+    [Tags]             Shopping cart
+         
