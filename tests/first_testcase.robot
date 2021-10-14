@@ -13,7 +13,7 @@ Sign In
     OpenBrowser         about:blank    ${Browser}
     GoTo                ${URL}
     ClickText           Sign in
-    TypeText            Email address    training.qentinel@gmail.com    Password
+    TypeText            Email address    mdkohler86@gmail.com    Password
     TypeSecret          Password         ${PASSWORD}
     ClickText           Sign in          Forgot your password?
     
