@@ -31,7 +31,7 @@ Add product to shopping cart and cancel
     Appstate           Sign in
     ClickText          Dresses
     ClickText          Printed Dresses
-    ClickElement       //*[@class\="icon-plus"]
+    ClickElement       ${icon_plus} 
     DropDown           Size            M
     ClickText          Add to cart
     VerifyText         Product Successfully added to your shopping cart     
